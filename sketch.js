@@ -8,7 +8,7 @@ function setup() {
     createCanvas(windowWidth, windowHeight);
   
     frameRate(30);
-    fill("green");
+    fill(153, 102, 0);
     ellipse(windowWidth/2, windowHeight/2, 300, 400);
   
     fill(255,255,255);
