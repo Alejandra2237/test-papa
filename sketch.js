@@ -5,22 +5,19 @@ var myPainter = new Painter()
 
 
 function setup() {
-    createCanvas(400, 300);
+    createCanvas(windowWidth, windowHeight);
   
     frameRate(30);
     fill(153, 102, 0);
+    ellipse(windowWidth/2, windowHeight/2, windowWidth-280, windowHeight-50);
   
-    ellipse(200, 150, 200, 250);
     fill(255,255,255);
-    circle(170, 110, 50);
+    circle(windowWidth/2-50, windowHeight/2-80, 70);
+    circle(windowWidth/2+50, windowHeight/2-80, 70);
   
-    circle(230, 110, 50);
     fill(0,0,0);
-    circle(170, 110, 20);
-  
-  
-  
-    circle(230, 110, 20);
+    circle(windowWidth/2-50, windowHeight/2-80, 30);
+    circle(windowWidth/2+50, windowHeight/2-80, 30);
 }
 
 function draw() {
