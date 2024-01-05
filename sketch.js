@@ -9,7 +9,7 @@ function setup() {
   
     frameRate(30);
     fill("green");
-    ellipse(windowWidth/2, windowHeight/2, windowWidth-280, windowHeight-50);
+    ellipse(windowWidth/2, windowHeight/2, 300, 400);
   
     fill(255,255,255);
     circle(windowWidth/2-50, windowHeight/2-80, 70);
