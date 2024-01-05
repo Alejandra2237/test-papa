@@ -9,7 +9,7 @@ function setup() {
   
     frameRate(30);
     fill(153, 102, 0);
-    ellipse(windowWidth/2, windowHeight/2, 300, 400);
+    ellipse(windowWidth/2, windowHeight/2, 400, 500);
   
     fill(255,255,255);
     circle(windowWidth/2-50, windowHeight/2-80, 70);
@@ -31,7 +31,7 @@ function draw() {
     } else{
         landmarkDist = Infinity;
     }
-    var threshold = 30;
+    var threshold = 50;
     if (landmarkDist < threshold) {    
         console.log("Pinched!");
         myPainter.penDown(thumbTip.x,thumbTip.y);
